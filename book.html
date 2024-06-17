@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking</title>
+    <link rel="stylesheet" href="styless2.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <img src="img/logo.png" class="logo" alt="Company Logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">OUTFIT</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+                <li><a href="#">VENUE</a></li>
+                <li><a href="appointment.html">APPOINTMENT</a></li>
+            </ul>
+        </nav>
+        <h1>Book an Appointment</h1>
+        <form action="submit_appointment.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

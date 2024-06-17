@@ -6,46 +6,58 @@
   <title>RadiantRings - Wedding Planner</title>
   <link rel="stylesheet" href="stylevenue.css">
 </head>
-<header>
-  
-</header>
 <body>
 
+<header>
+  <nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="RadiantRings Logo">
+    </div>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="#">OUTFIT</a></li>
+      <li><a href="#">ACCESSORIES</a></li>
+      <li><a href="venue.html">VENUE</a></li>
+      <li><a href="book.html">APPOINTMENT</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <div id="ar-container">
-    <canvas id="ar-canvas"></canvas>
-    <div id="ar-content"></div>
+<div id="ar-container">
+  <canvas id="ar-canvas"></canvas>
+  <div id="ar-content"></div>
+</div>
+
+<div id="controls">
+  <div class="control-item">
+    <img src="./assets/targets/elegant.png" alt="Elegant Wedding" class="target-image" id="target-image-1">
+    <button class="youtube-btn" id="youtube-btn-1" data-video-id="8qcVUL5Bs8c">Elegant Wedding</button>
   </div>
-
-  <div id="controls">
-    <div class="control-item">
-      <img src="./assets/targets/elegant.png" alt="Elegant Wedding" class="target-image" id="target-image-1">
-      <button class="youtube-btn" id="youtube-btn-1" data-video-id="8qcVUL5Bs8c">Elegant Wedding</button>
-    </div>
-    <div class="control-item">
-      <img src="./assets/targets/grand.png" alt="Grand Wedding" class="target-image" id="target-image-2">
-      <button class="youtube-btn" id="youtube-btn-2" data-video-id="5gkFmR3iFkQ">Grand Wedding</button>
-    </div>
-    <div class="control-item">
-      <img src="./assets/targets/outdoor.png" alt="Outdoor Wedding" class="target-image" id="target-image-3">
-      <button class="youtube-btn" id="youtube-btn-3" data-video-id="adf1hZ6IR2o">Outdoor Wedding</button>
-    </div>
-    <div class="control-item">
-      <img src="./assets/targets/romantic.png" alt="Romantic Wedding" class="target-image" id="target-image-4">
-      <button class="youtube-btn" id="youtube-btn-4" data-video-id="Qr4mwsdLHk0">Romantic Wedding</button>
-    </div>
+  <div class="control-item">
+    <img src="./assets/targets/grand.png" alt="Grand Wedding" class="target-image" id="target-image-2">
+    <button class="youtube-btn" id="youtube-btn-2" data-video-id="5gkFmR3iFkQ">Grand Wedding</button>
   </div>
-
-  <div id="ar-div" style="display: none;">
-    <div id="player"></div>
+  <div class="control-item">
+    <img src="./assets/targets/outdoor.png" alt="Outdoor Wedding" class="target-image" id="target-image-3">
+    <button class="youtube-btn" id="youtube-btn-3" data-video-id="adf1hZ6IR2o">Outdoor Wedding</button>
   </div>
+  <div class="control-item">
+    <img src="./assets/targets/romantic.png" alt="Romantic Wedding" class="target-image" id="target-image-4">
+    <button class="youtube-btn" id="youtube-btn-4" data-video-id="Qr4mwsdLHk0">Romantic Wedding</button>
+  </div>
+</div>
 
-  <footer>
-    <p>© 2024 RadiantRings. All rights reserved.</p>
-  </footer>
+<div id="ar-div" style="display: none;">
+  <div id="player"></div>
+</div>
 
-  <script src="https://www.youtube.com/iframe_api"></script>
-  <script src="./libs/mindar/mindar-image-three.prod.js"></script>
-  <script src="./main.js" type="module"></script>
+<footer>
+  <p>© 2024 RadiantRings. All rights reserved.</p>
+</footer>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="./libs/mindar/mindar-image-three.prod.js"></script>
+<script src="./main.js" type="module"></script>
+
 </body>
 </html>

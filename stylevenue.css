@@ -14,9 +14,9 @@ body {
 header {
   width: 100%;
   max-width: 100%;
-  padding: 20px 0;
+  padding: 10px 0; /* Reduced padding top and bottom */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 40px;
+  margin-bottom: 20px; /* Reduced margin */
   text-align: center;
   overflow: hidden; /* Ensure no overflow */
   background-color: #d3c5c5;

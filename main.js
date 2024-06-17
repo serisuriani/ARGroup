@@ -72,7 +72,7 @@ const startYouTubeAR = async (videoId, targetImage) => {
 const youtubeBtns = document.querySelectorAll('.youtube-btn');
 
 // Update with MindAR image target URL
-const mindarImageTarget = '../assets/targets/venue.mind';
+const mindarImageTarget = './assets/targets/venue.mind';
 
 youtubeBtns.forEach((btn, index) => {
   btn.addEventListener('click', async () => {

@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden; /* Ensure no horizontal scrolling */
 }
 
 header {
@@ -53,6 +53,8 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
 }
 
 nav ul li {
@@ -76,7 +78,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: hidden; /* Ensure no overflow */
   position: relative;
   margin-top: 20px;
   z-index: 0;
@@ -147,8 +149,8 @@ nav ul li a {
 }
 
 #player {
-  width: 640px;
-  height: 360px;
+  width: 100%; /* Adjusted to be responsive */
+  height: auto; /* Adjusted to be responsive */
 }
 
 footer {
@@ -170,11 +172,6 @@ footer p {
   #ar-container {
     width: 95%;
     height: 50vh;
-  }
-
-  #player {
-    width: 100%;
-    height: auto;
   }
 
   nav {

@@ -24,7 +24,7 @@ header {
 
 nav {
   width: 100%;
-  max-width: 1200px; /* Adjust width as needed */
+  max-width: 1000px; /* Adjust width as needed */
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@ nav {
 }
 
 nav .logo img {
-  max-width: 100px; /* Adjusted maximum width for the logo */
+  max-width: 50px; /* Adjusted maximum width for the logo */
 }
 
 nav ul {

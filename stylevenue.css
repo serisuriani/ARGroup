@@ -168,3 +168,10 @@ nav ul li a{
     font-size: 17px;
 }
   
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 'Times New Roman',;
+
+}

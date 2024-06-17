@@ -24,7 +24,7 @@ header {
 
 nav {
   width: 100%;
-  max-width: 1000px; /* Adjust width as needed */
+  max-width: 600px; /* Adjust width as needed */
   padding: 0 20px;
   display: flex;
   justify-content: space-between;

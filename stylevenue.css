@@ -33,7 +33,6 @@ nav {
 
 nav .logo img {
   max-width: 100px; /* Adjusted maximum width for the logo */
-  height: auto;
 }
 
 nav ul {

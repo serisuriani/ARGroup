@@ -1,5 +1,5 @@
-import { loadGLTF } from "../ArGroup/libs/loader.js";
-import { CSS3DObject } from '../ARGroup/libs/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js';
+import { loadGLTF } from "../libs/loader.js";
+import { CSS3DObject } from '../libs/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js';
 
 const THREE = window.MINDAR.IMAGE.THREE;
 let mindarThreeInstance;
@@ -72,7 +72,7 @@ const startYouTubeAR = async (videoId, targetImage) => {
 const youtubeBtns = document.querySelectorAll('.youtube-btn');
 
 // Update with MindAR image target URL
-const mindarImageTarget = '../ARGroup/assets/targets/venue.mind';
+const mindarImageTarget = '../assets/targets/venue.mind';
 
 youtubeBtns.forEach((btn, index) => {
   btn.addEventListener('click', async () => {

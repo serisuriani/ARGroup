@@ -34,39 +34,6 @@ header p {
   margin: 5px 0 0;
 }
 
-nav {
-  width: 100%;
-  max-width: 100%;
-  padding: 20px 8%;
-  background-color: #d3c5c5;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav .logo {
-  width: 150px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0; /* Ensure no margin */
-  padding: 0; /* Ensure no padding */
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #555;
-  font-size: 17px;
-}
-
 #ar-container {
   width: 80%;
   max-width: 100%;
@@ -174,7 +141,4 @@ footer p {
     height: 50vh;
   }
 
-  nav {
-    padding: 20px 5%;
-  }
 }

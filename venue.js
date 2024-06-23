@@ -58,7 +58,7 @@ const startYouTubeAR = async (videoId, targetImage) => {
        const arContainer = document.getElementById('ar-container');
        const containerWidth = arContainer.clientWidth;
        const containerHeight = arContainer.clientHeight;
-       const playerWidth = containerWidth * 0.8; // Adjust size as needed
+       const playerWidth = containerWidth * 1.5; // Adjust size as needed
        const playerHeight = (playerWidth / 16) * 9; // Assuming 16:9 aspect ratio
        document.getElementById('player').style.width = `${playerWidth}px`;
        document.getElementById('player').style.height = `${playerHeight}px`;

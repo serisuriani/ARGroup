@@ -56,8 +56,6 @@ nav ul li a {
 
 #main-content {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   width: 90%;
   max-width: 1200px; /* Adjust the max-width as needed */
   margin-top: 20px;

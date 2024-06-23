@@ -1,0 +1,11 @@
+Model Information:
+* title:	Prom Suit
+* source:	https://sketchfab.com/3d-models/prom-suit-a0d13b4678684e5ab62b08d4a8ef1835
+* author:	jpg. (https://sketchfab.com/jpg.)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Prom Suit" (https://sketchfab.com/3d-models/prom-suit-a0d13b4678684e5ab62b08d4a8ef1835) by jpg. (https://sketchfab.com/jpg.) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

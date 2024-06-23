@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wedding dress
+* source:	https://sketchfab.com/3d-models/wedding-dress-48f95bed136f47c28a87ee276b638095
+* author:	Fashion by Stela Yordanova (https://sketchfab.com/Fashion_by_Stela_Yordanova)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wedding dress" (https://sketchfab.com/3d-models/wedding-dress-48f95bed136f47c28a87ee276b638095) by Fashion by Stela Yordanova (https://sketchfab.com/Fashion_by_Stela_Yordanova) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

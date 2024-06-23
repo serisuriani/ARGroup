@@ -1,5 +1,5 @@
 // Import necessary functions from the library
-import { loadAudio, loadGLTF } from "../../libs/loader.js";
+import { loadAudio, loadGLTF } from "./libs/loader.js";
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const mindarThree = new window.MINDAR.IMAGE.MindARThree({
         container: document.body,
-        imageTargetSrc: "../../assets/targets/dress/dress2.mind",
+        imageTargetSrc: "./assets/targets/dress/dress2.mind",
       });
 
       const { renderer, scene, camera } = mindarThree;
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const light = new THREE.HemisphereLight(0xffffff, 0xbbbbff, 1);
       scene.add(light);
 
-      const gltf = await loadGLTF("../../assets/models/dress2/scene.gltf");
+      const gltf = await loadGLTF("./assets/models/dress2/scene.gltf");
       gltf.scene.scale.set(0.001, 0.001, 0.001);
       gltf.scene.position.set(0, -0.4, 0);
 
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       camera.add(listener);
 
       const sound = new THREE.Audio(listener);
-      const audio = await loadAudio("../../assets/sounds/dress2.mp3");
+      const audio = await loadAudio("./assets/sounds/dress2.mp3");
       sound.setBuffer(audio);
 
       document.body.addEventListener("click", (e) => {

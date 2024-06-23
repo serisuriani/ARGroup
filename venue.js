@@ -53,15 +53,8 @@ const startYouTubeAR = async (videoId, targetImage) => {
 
     cssAnchor.onTargetFound = () => {
       player.playVideo();
-
-       // Calculate new dimensions for the video player
-       const arContainer = document.getElementById('ar-container');
-       const containerWidth = arContainer.clientWidth;
-       const containerHeight = arContainer.clientHeight;
-       const playerWidth = containerWidth * 1.5; // Adjust size as needed
-       const playerHeight = (playerWidth / 16) * 9; // Assuming 16:9 aspect ratio
-       document.getElementById('player').style.width = `${playerWidth}px`;
-       document.getElementById('player').style.height = `${playerHeight}px`;
+      adjustPlayerSize(); // Call function to adjust player size
+      
     };
     cssAnchor.onTargetLost = () => {
       player.pauseVideo();
@@ -72,6 +65,28 @@ const startYouTubeAR = async (videoId, targetImage) => {
     renderer.setAnimationLoop(() => {
       cssRenderer.render(cssScene, camera);
     });
+
+    function adjustPlayerSize() {
+      const arContainer = document.getElementById('ar-container');
+      const player = document.getElementById('player');
+
+      const containerWidth = arContainer.clientWidth;
+      const containerHeight = arContainer.clientHeight;
+      
+      // Adjust player size based on container size
+      let playerWidth = containerWidth * 0.9; // Adjust size as needed
+      let playerHeight = (playerWidth / 16) * 9; // Assuming 16:9 aspect ratio
+
+      // Check if the player height exceeds container height
+      if (playerHeight > containerHeight) {
+        playerHeight = containerHeight * 0.9; // Adjust to fit within container
+        playerWidth = (playerHeight / 9) * 16; // Adjust width based on new height
+      }
+
+      // Set player dimensions
+      player.style.width = `${playerWidth}px`;
+      player.style.height = `${playerHeight}px`;
+    }
 
   } catch (error) {
     console.error('Error starting YouTube AR', error);

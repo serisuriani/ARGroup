@@ -72,6 +72,7 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   position: relative; /* Ensure relative positioning */
+  overflow: hidden; /* Make sure nothing overflows out of the container */
 }
 
 #ar-canvas {
@@ -80,6 +81,7 @@ nav ul li a {
   left: 0;
   width: 100%;
   height: 100%; /* Adjust to cover the entire #ar-container */
+  z-index: 0; /* Ensure the canvas is behind other content */
 }
 
 #ar-content {

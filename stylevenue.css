@@ -71,6 +71,7 @@ nav ul li a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
+  z-index: 1; /* Ensure it is above other content */
 }
 
 #ar-canvas {
@@ -100,6 +101,7 @@ nav ul li a {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Ensure it is above other content */
 }
 
 #qr-code-image {
@@ -128,6 +130,7 @@ nav ul li a {
   gap: 15px;
   justify-content: center;
   margin-top: 20px;
+  z-index: 2; /* Ensure it is above other content */
 }
 
 .control-item {

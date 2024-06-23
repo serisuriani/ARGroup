@@ -55,9 +55,9 @@ nav ul li a {
 }
 
 #ar-container {
-  width: 90%; /* Adjusted width */
+  width: 90%;
   max-width: 100%;
-  height: 90vh; /* Adjusted height */
+  height: 90vh;
   background-color: #e3dcd3;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -65,10 +65,8 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* Ensure no overflow */
-  position: relative;
+  position: relative; /* Ensure relative positioning */
   margin-top: 20px;
-  z-index: 0;
 }
 
 #ar-canvas {
@@ -76,7 +74,7 @@ nav ul li a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 120%;
+  height: 100%; /* Adjust to cover the entire #ar-container */
 }
 
 #ar-content {
@@ -85,9 +83,6 @@ nav ul li a {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #controls {
